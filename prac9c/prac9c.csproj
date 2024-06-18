@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>95fd525407b2b9b52f2c10b2928bf25d.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="46f1f6f06927b52282362adfbf0c5f26.jpg" />
+    <None Remove="7838b482f2c4142380785856494cb969.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="95fd525407b2b9b52f2c10b2928bf25d.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DocumentFormat.OpenXml" Version="3.0.2" />
+    <PackageReference Include="DocX" Version="3.0.0" />
+    <PackageReference Include="FreeSpire.Office" Version="8.2.0" />
+    <PackageReference Include="ImapX" Version="2.0.0.18" />
+    <PackageReference Include="MaterialDesignThemes" Version="5.0.0" />
+    <PackageReference Include="Open-XML-SDK" Version="2.9.1" />
+    <PackageReference Include="Spire.Doc" Version="12.6.1" />
+    <PackageReference Include="Spire.Office" Version="9.5.0" />
+    <PackageReference Include="WindowsAPICodePack-Shell" Version="1.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="46f1f6f06927b52282362adfbf0c5f26.jpg" />
+    <Resource Include="7838b482f2c4142380785856494cb969.jpg" />
+  </ItemGroup>
+
+</Project>
